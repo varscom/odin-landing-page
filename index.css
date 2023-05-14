@@ -1,0 +1,15 @@
+.flex-container {
+    background-color: #1F2937;
+    height: 250px;
+    display: flex;
+    width: 100%;
+    
+}
+
+.items {
+    flex: 1;
+    flex-direction: row;
+    color: aliceblue;
+    align-items: flex-end;
+    
+}
