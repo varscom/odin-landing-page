@@ -1,6 +1,6 @@
 .flex-container {
     background-color: #1F2937;
-    height: 250px;
+    height: 300px;
     display: flex;
     width: auto;
     flex-direction: row;
@@ -30,4 +30,15 @@
     position:sticky;
     right: 4000px;
     margin: 10px;
+}
+
+h1, p {
+    margin-top: 150px;
+    vertical-align: top;
+}
+p {
+    font-size: 18px;
+}
+h1 {
+    font-size: 28px;
 }
