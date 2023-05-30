@@ -65,11 +65,47 @@
 
     }
 
-    .par {
-        
-    }
+    
+    
 
     
         
 }
+
+.flex-container {
+    display: flex;
+    flex: 1;    
+    flex-direction: row;
+    margin-left: 25%;
+    width: 900px;
+    justify-content: space-around;
     
+    
+    
+
+    .flex {
+        height: 150px;
+        width: 200px;
+        border-style: solid;
+        border-color: gray;
+        border-radius: 10px;
+        
+        
+    }
+}
+
+.secondPart {
+    
+    margin-left: 37%;
+}
+.texth {
+    display: flex;
+    flex: 1;    
+    flex-direction: row;
+    margin-left: 25%;
+    width: 900px;
+    justify-content: space-around;
+    /*border-style: solid  ;
+    border-color: red;*/
+}
+
