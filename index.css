@@ -1,7 +1,12 @@
+@font-face {
+  font-family: 'belle';
+  src: url(../odin-landing-page/assets/LaBelleAurore.woff2);
+}
 * {
     margin:0;
     padding:0; 
     background-color: #3a3a3a;
+    
     
 }
 .container {
@@ -9,6 +14,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 14vh;
   /*border: 5px solid purple ;*/
 }
 
@@ -46,7 +52,8 @@
     
     color: aliceblue;
     text-decoration: none;
-    font-family:monospace;
+    font-family: 'belle';
+    
   }
 
   .second-part {
@@ -55,13 +62,14 @@
     display: flex;
     flex: 1;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     gap: 10vh;
 
   }
   .boxl {
     display: flex;
     flex-direction: column;
+    
     width: 40%;
     gap: 5vh;
   }
@@ -81,7 +89,7 @@
   .header, .ptext {
     display: flex;
     justify-content: flex-end;
-    font-family:monospace;
+    font-family: 'belle';
     color: aliceblue;
     text-decoration: none;
     
